@@ -5,9 +5,10 @@
     <h1>Checkout Form</h1>
     <form method="post" action="/checkout">
       <label for="item">Item:</label>
-      <input id="item" type="text" name="cart[items][][name]">
+      <input id="item" type="text" name="item">
   </body>
 </html>
 
 
-#index.erb should contain a form with text field. Here, the user will enter an item to purchase. The form should post to the action /checkout.
+#index.erb should contain a form with text field. Here, the user will enter an item to 
+purchase. The form should post to the action /checkout.
